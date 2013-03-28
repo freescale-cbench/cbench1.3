@@ -3,19 +3,17 @@ cbench1.3
 
 cbench1.3 for benchmarking openflow1.3 enabled controllers.
 Supports throughput/latency evaluation of openflow1.3 controllers.
-Sends in packet in and expects either of FLOW MOD/PACKET OUT.
+Simulates fakeswitches,Sends in packet in messages  and expects either of FLOW MOD/PACKET OUT from the controller.
 No backward compatibility with openflow1.0 controllers,works only with openflow1.3 controllers.
 
 USAGE: Go to openflow/oflops/cbench 
 
 Run ./cbench for related help.U may see help options as below
 
-./cbench --help
-
-
+./cbench --help 
 help message
 USAGE: cbench [option]  # by Siva Badana 2013
-   -c/--controller              <str> hostname of controller to connect to     ("localhost")
+-c/--controller              <str> hostname of controller to connect to     ("localhost")
    -d/--debug                         enable debugging                         (off)
    -h/--help                          print this message                      
    -l/--loops                   <int> loops per test                           (16)
