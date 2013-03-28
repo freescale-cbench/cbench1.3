@@ -8,9 +8,10 @@ No backward compatibility with openflow1.0 controllers,works only with openflow1
 
 USAGE: Go to openflow/oflops/cbench 
 
-Run ./cbench for cbench related help.U may see help options as below
+Run ./cbench for related help.U may see help options as below
 
 ./cbench --help
+
 help message
 USAGE: cbench [option]  # by Siva Badana 2013
    -c/--controller              <str> hostname of controller to connect to     ("localhost")
